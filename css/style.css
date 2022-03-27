@@ -198,8 +198,8 @@ button {
     padding: 8rem 3rem;
   }
   #character {
-    -webkit-transform: scale(0.4) translate(0%, 30%);
-            transform: scale(0.4) translate(0%, 30%);
+    -webkit-transform: scale(0.39) translate(0%, 30%);
+            transform: scale(0.39) translate(0%, 30%);
   }
   .line-svg {
     width: 100%;
