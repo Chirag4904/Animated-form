@@ -186,4 +186,23 @@ button {
           transform: translate(-50%, -50%);
   opacity: 0;
 }
+
+@media screen and (max-width: 812px) {
+  form {
+    width: 90vw;
+    min-height: 80vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 8rem 3rem;
+  }
+  #character {
+    -webkit-transform: scale(0.4) translate(0%, 30%);
+            transform: scale(0.4) translate(0%, 30%);
+  }
+  .line-svg {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
